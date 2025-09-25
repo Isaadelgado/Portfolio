@@ -1,17 +1,128 @@
-body{
-
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand";
+  background-color: rgb(219, 231, 242);
+  color: black;
 }
 
-.nav.menu{
-
-}
- 
-.eu1{
-   width: 300px;
-   height: 400px;
+.estrela {
+  height: 50px;
+  padding: 20px;
 }
 
-.eu2{
-   width: 300px;
-   height: 400px;
+.nav-menu {
+  background-color: #f2d3d3;
+  font-family: "Quicksand";
+  font-size: 30px;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  gap: 30px;
+  height: 60vh;
+  margin-right: 50px;
+}
+
+.eu1 {
+  width: 400px;
+  height: 580px;
+  object-fit: cover;
+  border-radius: 25px;
+  box-shadow: 0px 4px 10px;
+}
+
+h1{
+   font-size: 40px;
+} 
+
+p {
+  font-size: 28px;
+  text-align: center;
+}
+
+.sobre {
+  background-color: #f2d3d3;
+  font-family: "Quicksand";
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#Sobre {
+  height: 100vh;
+}
+
+.eu2 {
+  width: 600px;
+  height: 780px;
+  object-fit: cover;
+  border-radius: 25px;
+  box-shadow: 0px 4px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.texto {
+  margin-right: 155px;
+  width: 489px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 600px;
+  margin-top: 220px;
+}
+
+.projetos {
+  background-color: #f2d3d3;
+  font-family: "Quicksand";
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#Projetos {
+  height: 60vh;
+}
+
+.contato {
+  background-color: #f2d3d3;
+  font-family: "Quicksand";
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+}
+
+.sobre-container{
+   margin-top: 100px;
+   display: flex;
 }
